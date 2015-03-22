@@ -1,0 +1,40 @@
+<!-- inspired by: http://www.sansbullshitsans.com/ -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Custom Bullshit Generator</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <style>
+      @font-face {
+        font-family:bullshitfont;
+        src:url(/font/bullshit.ttf);
+        font-weight:normal;
+      }
+
+      body {
+        font-family: Open Sans,Helvetica,Arial,sans-serif;
+      }
+
+      .bullshit-meter textarea {
+        font-family: bullshitfont;
+        font-variant-ligatures: common-ligatures;
+        -webkit-font-feature-settings: "liga" 1, "dlig" 1;
+        -moz-font-feature-settings: "liga" 1, "dlig" 1;
+        -ms-font-feature-settings: "liga" 1, "dlig" 1;
+        font-feature-settings: "liga" 1, "dlig" 1;
+        font-size: 1.5em;
+        width: 90%;
+        height: 8em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="bullshit-meter">
+      <textarea placeholder="bullshit agile editor ... :)"></textarea>
+    </div>
+  </body>
+
+</html>
